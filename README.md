@@ -7,4 +7,4 @@ Welcome to my GitHub profile! Here's a bit about me:
 🏢 Last worked as a Machine Learning Mentor at Bangkit Academy, led by Google Indonesia. </br>
 💬 Fun fact: When I'm not exploring data & AI, you can find me playing in a band, networking, and building some fun projects!</br>
 
-[![Rijal's GitHub stats](https://github-readme-stats.vercel.app/api?username=mfarizky)](https://github.com/mfarizky/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
