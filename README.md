@@ -1,5 +1,5 @@
 # 💫 About Me:
-## Hi There, I'm Rijal👋🏻
+### Hi There, I'm Rijal👋🏻
 📈 Data & AI Enthusiast passionate about exploring cutting-edge technologies.<br>🏢 Last worked as a Machine Learning Mentor at Bangkit Academy, led by Google Indonesia.<br>🎓 Graduated in Informatics Engineering from Mataram University, Indonesia.<br>💬 Fun fact: When I'm not exploring data & AI, you can find me playing in a band, networking, and building some fun projects!
 
 
