@@ -1,6 +1,6 @@
 # 💫 About Me:
-### Hi There, I'm Rijal👋🏻
-📈 Data & AI Enthusiast passionate about exploring cutting-edge technologies.<br>🏢 Last worked as a Machine Learning Mentor at Bangkit Academy, led by Google Indonesia.<br>🎓 Graduated in Informatics Engineering from Mataram University, Indonesia.<br>💬 Fun fact: When I'm not exploring data & AI, you can find me playing in a band, networking, and building some fun projects!
+### Hi There, I'm RiZKY👋🏻
+🏢 Currently work as AI & Automation Engineer at a consulting firm.<br>🎓 Graduated in Informatics Engineering from Universitas Mataram, Indonesia.<br>💬 Fun fact: When I'm not exploring my computer, you can find me playing in a band!
 
 
 ## 🌐 Socials:
