@@ -1,40 +1,90 @@
-# 💫 About Me:
-### Hi There, I'm RiZKY👋🏻
-🏢 Currently work as AI & Automation Engineer at a consulting firm.<br>🎓 Graduated in Informatics Engineering from Universitas Mataram, Indonesia.<br>💬 Fun fact: When I'm not exploring my computer, you can find me playing in a band!
+# Hi, I'm Rizky 👋
 
+**Business Automation Engineer** at a consulting firm in Indonesia. I turn messy business processes (payroll, compliance, client portals, document workflows) into systems people can rely on.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mfarizky_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rmfarizky) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rmfarizky@gmail.com) 
+My day job sits where IT administration meets software engineering: I run and automate a Microsoft 365 tenant serving 50+ client portals, and I build applications for the payroll and compliance work our consultants do every month. I also work as a payroll consultant myself, so I know PPh 21, BPJS and the month-end close from the inside, not just from the spec.
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white) 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) 
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
-![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=mfarizky&theme=vue&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mfarizky&theme=vue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-<!--
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=mfarizky&theme=blue-green&no-frame=true&no-bg=false&margin-w=4)
--->
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=mfarizky&limit=5&theme=vue&combine_all_yearly_contributions=true)
+🎓 Informatics Engineering, Universitas Mataram · 📍 Mataram, Lombok (UTC+8) · 🎸 Off the keyboard, I play in a band.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=mfarizky&icon=5&color=3)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 Featured projects
+
+### [CoraByte Payroll](https://github.com/mfarizky/CoraByte-Payroll)
+A self-contained payroll application for Indonesian payroll consultants, from employee master data to the bank transfer file.
+
+- Server-side calculation engine for **PPh 21 TER** (monthly and daily), the December **Pasal 17** reconciliation, **BPJS** with floors and caps, and THR runs, built as pure functions with a self-test
+- **Multi-tenant** by design, with tenant isolation enforced at the repository layer and proven by tests
+- One guarded write path: optimistic locking, an enforced Draft → Review → Outputs → Paid flow, immutable paid runs and an audit log
+- **Zero npm dependencies**: Node.js standard library only (`node:http`, `node:sqlite`, `node:crypto`, `node:test`)
+- Payslip PDFs, remittance summary and a ready-to-upload Bank Mandiri payroll file
+
+`Node.js` `SQLite` `JavaScript` `node:test`
+
+### [M365 Script Automation](https://github.com/mfarizky/M365-SCRIPT-AUTOMATION)
+Production scripts from administering a real Microsoft 365 tenant.
+
+- Tenant-wide governance of client portal sites: inventory, guest permission hardening, navigation repair, list schema roll-out
+- SharePoint list provisioning and bulk data fixes with backup and rollback
+- Storage and audit reporting via SharePoint Search (KQL), Microsoft Graph and Exchange Online
+- A scan → compress → track pipeline for large OneDrive files that preserves version history
+- Zoho Books API clients, an OCR pipeline for Indonesian deeds of establishment, and Intune remediation
+- Certificate-based app-only auth, with every tenant value kept out of the code
+
+`PowerShell 7` `PnP.PowerShell` `Microsoft Graph` `Exchange Online` `Power Fx` `Python`
+
+---
+
+## 🛠️ What I work with
+
+**Microsoft 365 & Power Platform**
+
+![SharePoint](https://img.shields.io/badge/SharePoint-036C70?style=flat-square)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat-square)
+![Exchange Online](https://img.shields.io/badge/Exchange_Online-0078D4?style=flat-square)
+![Intune](https://img.shields.io/badge/Intune-0078D4?style=flat-square)
+![Entra ID](https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square)
+![Power Apps](https://img.shields.io/badge/Power_Apps-742774?style=flat-square)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square)
+![Dataverse](https://img.shields.io/badge/Dataverse-088142?style=flat-square)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=black)
+
+**Languages & runtimes**
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Power Fx](https://img.shields.io/badge/Power_Fx-742774?style=flat-square)
+
+**Integrations & tools**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
+![Zoho Books API](https://img.shields.io/badge/Zoho_Books_API-E42527?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST_APIs-555555?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## 🌱 Right now
+
+- Building internal business applications for document approval, client monitoring and compliance filing
+- Learning to build **LLM-based agents in Python** for real business workflows. A project is on the way.
+
+## 📜 Certifications
+
+- TensorFlow Developer Certificate
+
+## 🗂️ Earlier work
+
+Before automation became my focus, I did data and machine learning projects: [customer segmentation with RFM and K-Means](https://github.com/mfarizky/customer-segmentation-rfm-kmeans), [rice price web scraping](https://github.com/mfarizky/rice-price-webscrapping), [London crime analysis](https://github.com/mfarizky/crime_londonCity) and [ML implementations](https://github.com/mfarizky/ml_implementation).
+
+---
+
+## 📫 Get in touch
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rmfarizky)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rmfarizky@gmail.com)
+
+Open to conversations about Microsoft 365 automation, Power Platform, and payroll or compliance systems.
