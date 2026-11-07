@@ -4,7 +4,7 @@
 
 My day job sits where IT administration meets software engineering: I run and automate a Microsoft 365 tenant serving 50+ client portals, and I build applications for the payroll and compliance work our consultants do every month. I also work as a payroll consultant myself, so I know PPh 21, BPJS and the month-end close from the inside, not just from the spec.
 
-🎓 Informatics Engineering, Universitas Mataram · 📍 Mataram, Lombok (UTC+8) · 🎸 Off the keyboard, I play in a band.
+🎓 Informatics Engineering, Universitas Mataram · 📍 Mataram, Lombok (UTC+8) · 🎹 Off the keyboard, I play in a band.
 
 ---
 
